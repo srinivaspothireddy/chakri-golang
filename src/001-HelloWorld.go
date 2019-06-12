@@ -14,7 +14,12 @@ func main(){
 
 	bar()
 
-	fmt.Println("I am exiting the main function")
+	n, err := fmt.Println("I am exiting the main function")
+	fmt.Println(n)
+	fmt.Println(err)
+	
+
+
 }
 
 func foo()  {
