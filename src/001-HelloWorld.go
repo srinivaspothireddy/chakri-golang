@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	fmt.Println("Hello World! This is my main first program...")
 	foo()
 
-	for i:=0;i<100;i++{
-		if i%2==0{
+	for i := 0; i < 100; i++ {
+		if i%2 == 0 {
 			fmt.Println(i)
 		}
 	}
@@ -17,16 +17,13 @@ func main(){
 	n, err := fmt.Println("I am exiting the main function")
 	fmt.Println(n)
 	fmt.Println(err)
-	
-
 
 }
 
-func foo()  {
+func foo() {
 	fmt.Println("Yoo.. I am in foo function.")
 }
 
-func bar(){
+func bar() {
 	fmt.Println("Yo.. I am in function bar.")
 }
-
