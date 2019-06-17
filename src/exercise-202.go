@@ -1,9 +1,10 @@
 package main
 
 import "fmt"
+
 //Use all the Operators to assign and print the variable values
 
-func main(){
+func main() {
 	num1 := (42 == 42)
 	num2 := (41 <= 42)
 	num3 := (42 >= 41)
