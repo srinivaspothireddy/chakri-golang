@@ -14,14 +14,14 @@ func main() {
 
 	fmt.Println(m1)
 	for k, v := range m1 {
-		fmt.Println(k,v)
+		fmt.Println(k, v)
 		for i, val := range v {
 			fmt.Println(k, i, val)
 		}
 	}
 
 	//exercise-410
-	delete(m1,"Mahesh Babu")
+	delete(m1, "Mahesh Babu")
 	fmt.Println(m1)
 
 }

@@ -3,8 +3,11 @@ package main
 import "fmt"
 
 //Data Structures
+var arrayName1 [5]int
+
 func main() {
 	//Array - To Group same type of values
+	fmt.Println(arrayName1)
 
 	var x [5]int //You need to specify the size and type
 	fmt.Println(x)
