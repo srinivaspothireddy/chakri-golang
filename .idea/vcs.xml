@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bin/src/github.com/GoesToEleven/GolangTraining" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bin/src/github.com/GoesToEleven/golang-web-dev" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bin/src/github.com/srinivaspothireddy/chakri-golang" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/bin/src/github.com/srinivaspothireddy/chakri-gowebdev" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/GoesToEleven/GolangTraining" vcs="Git" />
   </component>
 </project>
