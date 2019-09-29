@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"stringutil"
+)
 
 var t int = 5
 type hotdog int
@@ -8,6 +11,8 @@ var u hotdog
 
 
 func main() {
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
+
 	fmt.Println("This is my first code")
 	foo()
 	fmt.Println("Back to Main")
